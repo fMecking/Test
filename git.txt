@@ -1,0 +1,16 @@
+Git:
+  -verteiltes Versionsverwaltungssystem
+    -komplette Version der Codebasis ist bei jedem Entwickler gespeichert
+    -die meisten Operationen sind schneller, weil sie Lokal stattfinden und erst im nachhinnein mit dem Server synchronisiert werden müssen
+    -nutzer können offline Arbeiten
+    -backups liegen effektiv bei jedem nutzer
+  -Versionen speichern immer ein gesammtes "snapshot" einer Datei, statt einer einfachen änderungshistorie
+    -schneller in der verwendung, da nicht immer jede änderung an einer Datei nachemfunden werden muss, um eine Bestimmte version zu erreichen
+    -sicherer gegen korruption, weil mehrere Versionen vorhanden sind, und eine Korruption einer einzelnen Version nicht dazu führt, dass allen nachfolgenden versionen nicht diese änderung fehlt
+    -benötigt mehr Speicher  
+
+  -verschiedene Teile eines Projektes werden in verschiedenen "Branches" bearbeitet
+    -branches können mittels einem pull-Request in andere Branches integriert werden
+      -wenn in beiden branches Änderungen an der selben Datei vorgenommen wurden, wird für jede änderung einzeln gefragt welche version übernommen wird
+  
+
