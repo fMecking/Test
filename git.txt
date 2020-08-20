@@ -1,4 +1,4 @@
-Git:
+﻿Git:
   -verteiltes Versionsverwaltungssystem
     -komplette Version der Codebasis ist bei jedem Entwickler gespeichert
     -die meisten Operationen sind schneller, weil sie Lokal stattfinden und erst im nachhinnein mit dem Server synchronisiert werden müssen
@@ -14,3 +14,4 @@ Git:
       -wenn in beiden branches Änderungen an der selben Datei vorgenommen wurden, wird für jede änderung einzeln gefragt welche version übernommen wird
   
 
+Test
